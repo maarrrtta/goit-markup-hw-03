@@ -23,8 +23,6 @@ a {
 
 .nav-background {
     color: var(--brand-color);
-    width: 1600px;
-    max-height: 80px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -104,8 +102,6 @@ a {
 
 .first-section-background {
     background: #2F303A;
-    width: 1600px;
-    height: 600px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -122,6 +118,7 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--brand-color);
+    margin-top: 200px;
 }
 
 .first-section-button-box {
@@ -146,17 +143,17 @@ a {
     display: flex;
     justify-content: center;
     padding: 10px 41px 10px 42px;
+    margin-bottom: 200px;
 }
 
 .second-section-box {
 display: flex;
 justify-content: center;
-margin: 0 215px 0 215px;
 }
 
 .second-section {
     display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
 }
 
 .second-section-headline {
@@ -166,8 +163,6 @@ margin: 0 215px 0 215px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color-headline);
-    min-width: 270px;
-    padding-right: 30px;
 } 
 
 .second-section-text {
@@ -177,7 +172,6 @@ margin: 0 215px 0 215px;
     letter-spacing: 0.03em;
     color: var(--brand-color-description);
     text-transform: none;
-    padding-top: 10px;
 }
 
 .third-section-title {
@@ -187,7 +181,7 @@ margin: 0 215px 0 215px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--brand-color-headline);
-    padding: 0 624px 50px;
+    padding-bottom: 50px;
 }
 
 .third-section-pictures {
@@ -196,13 +190,11 @@ margin: 0 215px 0 215px;
     flex-direction: row;
     justify-content: space-between;
     gap: 30px;
-    padding: 0 215px 94px 215px;
+    padding-bottom: 94px;
 }
 
 .fourth-section-background {
     background: #F5F4FA;
-    width: 1600px;
-    height: 648px;
 }
 
 .fouth-section-title {
@@ -217,8 +209,7 @@ margin: 0 215px 0 215px;
 
 .fourth-section {
     display: flex;
-        justify-content: space-around;
-        padding: 0 215px 0 215px;
+        justify-content: space-between;
 }
 
 .fourth-section-block {
@@ -226,9 +217,6 @@ margin: 0 215px 0 215px;
     color: var(--brand-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    width: 270px;
-    height: 368px;
-    margin-right: 30px;
 }
 
 figcaption {
@@ -261,14 +249,11 @@ figcaption {
 
 .footer-background {
     background: #2F303A;
-    width: 1600px;
-    min-height: 252px;
 }
 
 .footer-text {
     display: flex;
     flex-direction: column;
-    padding-left: 215px;
     padding-bottom: 60px;
 }
 
@@ -280,7 +265,7 @@ figcaption {
     letter-spacing: 0.03em;
     color: var(--brand-color-logo);
     text-decoration: none;
-    padding: 60px 1240px 20px 0;
+    padding: 60px 0 20px 0;
 }
 
 .logo-studio {
@@ -319,12 +304,10 @@ display: flex;
 
 .portfolio-buttons {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 8px;
-    padding-left: 510px;
     padding-bottom: 50px;
-    padding-right: 518px;
 }
 
 .buttons {
@@ -383,6 +366,7 @@ display: flex;
 
 .container {
     width: 1200px;
+    margin: 0 auto;
 }
 
 .section {
