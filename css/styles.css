@@ -1,3 +1,5 @@
+* {margin: 0; padding: 0; }
+
 :root {
     --brand-color: #FFFFFF;
     --brand-color-headline: #212121;
@@ -119,6 +121,7 @@ a {
     text-transform: uppercase;
     color: var(--brand-color);
     margin-top: 200px;
+    padding-bottom: 30px;
 }
 
 .first-section-button-box {
@@ -146,14 +149,8 @@ a {
     margin-bottom: 200px;
 }
 
-.second-section-box {
-display: flex;
-justify-content: center;
-}
-
 .second-section {
     display: flex;
-        justify-content: space-between;
 }
 
 .second-section-headline {
@@ -163,6 +160,7 @@ justify-content: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color-headline);
+    padding: 0 15px;
 } 
 
 .second-section-text {
@@ -172,6 +170,7 @@ justify-content: center;
     letter-spacing: 0.03em;
     color: var(--brand-color-description);
     text-transform: none;
+    padding-top: 10px;
 }
 
 .third-section-title {
@@ -209,7 +208,6 @@ justify-content: center;
 
 .fourth-section {
     display: flex;
-        justify-content: space-between;
 }
 
 .fourth-section-block {
@@ -217,6 +215,7 @@ justify-content: center;
     color: var(--brand-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    margin: 0 15px;
 }
 
 figcaption {
@@ -255,6 +254,7 @@ figcaption {
     display: flex;
     flex-direction: column;
     padding-bottom: 60px;
+    padding-left: 15px;
 }
 
 .footer-logo {
