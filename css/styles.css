@@ -38,7 +38,7 @@ a {
     letter-spacing: 0.03em;
     color: var(--brand-color-logo);
     text-decoration: none;
-    padding: 24px 0 25px 0;
+    margin: 24px 0 25px 0;
 }
 
 .logo-studio-header {
@@ -56,20 +56,19 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .first-line-agency {
-    padding-left: 47px;
-    padding-right: 46px
+    margin-left: 93px;
+    margin-right: 46px
 }
 
 .first-line-portfolio {
-    padding-right: 46px;
+    margin-right: 46px;
 }
 
 .first-line-contact {
-    padding-right: 371px;
+    margin-right: 371px;
 }
 
 .first-line a {
@@ -212,7 +211,7 @@ a {
 
 .fourth-section-block {
     display: inline-block;
-    color: var(--brand-color);
+    background-color: var(--brand-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     margin: 0 15px;
@@ -339,7 +338,6 @@ display: flex;
     flex-wrap: wrap;
     gap: 30px;
     padding: 0 15px;
-    margin: 0 215px;
 }
 
 .portfolio-photo-border{
